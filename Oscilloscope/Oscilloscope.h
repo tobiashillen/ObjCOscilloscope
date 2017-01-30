@@ -12,5 +12,6 @@ IB_DESIGNABLE
 @interface Oscilloscope : UIView
 
 @property (nonatomic) IBInspectable float amp;
+@property (nonatomic) IBInspectable float lineSize;
 
 @end

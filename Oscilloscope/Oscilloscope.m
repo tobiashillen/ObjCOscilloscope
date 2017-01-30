@@ -36,9 +36,8 @@
     }
     
     UIBezierPath *path = [UIBezierPath bezierPathWithCGPath:linePath];
+    [path setLineWidth:self.lineSize];
     [path stroke];
-    
-    
     
     /*
     //Circle
