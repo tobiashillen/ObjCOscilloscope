@@ -13,6 +13,7 @@
 		8B5131D91E3F39EE005BD506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5131D71E3F39EE005BD506 /* Main.storyboard */; };
 		8B5131DB1E3F39EE005BD506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5131DA1E3F39EE005BD506 /* Assets.xcassets */; };
 		8B5131DE1E3F39EE005BD506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5131DC1E3F39EE005BD506 /* LaunchScreen.storyboard */; };
+		8B5131E71E3F3A20005BD506 /* Oscilloscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5131E61E3F3A20005BD506 /* Oscilloscope.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8B5131DA1E3F39EE005BD506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5131DD1E3F39EE005BD506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5131DF1E3F39EE005BD506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5131E51E3F3A20005BD506 /* Oscilloscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oscilloscope.h; sourceTree = "<group>"; };
+		8B5131E61E3F3A20005BD506 /* Oscilloscope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oscilloscope.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				8B5131DC1E3F39EE005BD506 /* LaunchScreen.storyboard */,
 				8B5131DF1E3F39EE005BD506 /* Info.plist */,
 				8B5131CE1E3F39EE005BD506 /* Supporting Files */,
+				8B5131E51E3F3A20005BD506 /* Oscilloscope.h */,
+				8B5131E61E3F3A20005BD506 /* Oscilloscope.m */,
 			);
 			path = Oscilloscope;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5131E71E3F3A20005BD506 /* Oscilloscope.m in Sources */,
 				8B5131D61E3F39EE005BD506 /* ViewController.m in Sources */,
 				8B5131D31E3F39EE005BD506 /* AppDelegate.m in Sources */,
 				8B5131D01E3F39EE005BD506 /* main.m in Sources */,
