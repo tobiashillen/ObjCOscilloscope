@@ -13,5 +13,6 @@ IB_DESIGNABLE
 
 @property (nonatomic) IBInspectable float amp;
 @property (nonatomic) IBInspectable float lineSize;
+@property (nonatomic) IBInspectable UIColor* lineColor;
 
 @end

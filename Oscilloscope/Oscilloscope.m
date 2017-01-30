@@ -37,6 +37,7 @@
     
     UIBezierPath *path = [UIBezierPath bezierPathWithCGPath:linePath];
     [path setLineWidth:self.lineSize];
+    [self.lineColor setStroke];
     [path stroke];
     
     /*
